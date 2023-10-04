@@ -1,4 +1,3 @@
-// Correct the imports
 import "./App.css";
 import { useState, useRef } from "react";
 import { initializeApp } from "firebase/app";
@@ -229,7 +228,6 @@ function ChatRoom() {
 
 function ChatMessage(props) {
   const { text, uid, photoURL } = props.message;
-
   const messageClass = uid === myAuth.currentUser.uid ? "sent" : "received";
 
   return (
