@@ -6,7 +6,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+## Step 1: Setup Your React App
+1. Create a new React app:
+   ```sh
+   npx create-react-app react-chat-app
+   cd react-chat-app
+   ```
+2. Install the necessary packages: 
+    ```sh
+    npm install firebase react-firebase-hooks styled-components
+    ```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -16,8 +25,8 @@ You may also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    export { myAuth, myFireStore };
+    ```
 
 ### `npm run build`
 
@@ -33,7 +42,11 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Step 4: Styling Your Components
+In this step, you are free to choose any styling library or methodology that you are comfortable with. Some popular choices include styled-components, emotion, tailwindcss, or even plain CSS. The important part is to ensure that your components are styled in a way that enhances the user experience.
+
+1. Choose a styling library or methodology and install any necessary packages.
+2. Apply styles to your components. Make sure to consider responsiveness and usability.
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
